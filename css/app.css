@@ -1,0 +1,136 @@
+/* Created by Adedoyin aeadedoyin@gmail.com 2019-06-27 20:55:08 */
+
+/* Grab the Karla Font ['cause it's nice] */
+
+@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i');
+
+/* Resets */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*  Tags */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #828282;
+}
+
+html,
+body {
+    font-family: "Karla", "sans-serif";
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background: #ff6600;
+    padding: 0.25rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width:768px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+
+/* Classes [+Tag combos] */
+
+.font-light {
+    font-weight: 400 !important;
+}
+
+.font-heavy {
+    font-weight: 700 !important;
+}
+
+.menu-logo {
+    display: flex;
+    justify-content: start;
+    align-content: center;
+}
+
+.menu-logo,
+.menu-logo a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.25rem;
+    margin: 0 0.5rem;
+}
+
+.menu-logo img {
+    border: 1px solid #ffffff;
+}
+
+.menu-links a {
+    color: #000000;
+}
+
+.stories {
+    background: #f6f6ef;
+}
+
+.stories .story {
+    padding: .5rem;
+    display: flex;
+    justify-content: start;
+}
+
+.stories .story-title {
+    font-weight: 700;
+    color: #5c5c5c;
+}
+
+.stories .story-source,
+.stories .story-index {
+    font-weight: 400;
+    color: #828282;
+    margin: 0 .5rem;
+}
+
+.stories .story-data {
+    color: #828282;
+}
+
+.container,
+.container-full {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 750px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1170px
+    }
+}
