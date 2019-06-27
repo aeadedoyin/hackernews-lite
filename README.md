@@ -1,2 +1,2 @@
-# hackernews-lite
+# Hacker News [lite]
 Hacker News is a social news website focusing on computer science and entrepreneurship.
